@@ -1,0 +1,25 @@
+{
+  "name": "parcelify-and-karma-browserify",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "style": "index.less",
+  "transforms": [
+    "less-css-stream"
+  ],
+  "author": "mediafreakch",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-browserify": "^5.0.2",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7",
+    "less-css-stream": "^1.0.0",
+    "parcelify": "^2.1.0",
+    "watchify": "^3.7.0"
+  }
+}
