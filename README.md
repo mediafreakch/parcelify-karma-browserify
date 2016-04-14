@@ -9,8 +9,9 @@ Parcelify doesn't work with karma-browserify.
 2. Run `npm install`
 3. Run `npm test`
 
-Expected behaviour: Test should pass
-Actual behaviour: Test fails
+__Expected behaviour__: Test should pass  
+__Actual behaviour__: Test fails
 
-Parcelify should actually write a CSS bundle to `./spec/dist/bundle.css`. But doesn't.
+Parcelify should write a CSS bundle to `./spec/dist/bundle.css`. But doesn't.  
+
 If you change `karma-browserify/lib/bro.js#l317` to `w.add`, you will see parcelify creating the bundle.
